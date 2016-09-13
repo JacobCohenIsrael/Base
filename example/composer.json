@@ -1,0 +1,17 @@
+{
+  "name" : "example",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "autoload-dev" : {
+    "psr-4" : {
+      "JCI\\Base\\" : "../Base/src"
+    }
+  },
+  "autoload" : {
+    "psr-4" : {
+      "JCI\\Example\\" : "app/Example/src"
+    }
+  }
+}
